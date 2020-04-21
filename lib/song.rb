@@ -42,7 +42,7 @@ class Song
   end
 
   def self.alphabetical
-    self.all.sort(song.name)
+    self.all.sort(self.name)
   end
 
 end
